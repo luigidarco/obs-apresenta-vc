@@ -1,0 +1,1 @@
+import React from'react';import{createRoot}from'react-dom/client';import'@mantine/core/styles.css';import'@mantine/notifications/styles.css';import'../app/globals.css';import Panel from'../app/studio-panel';createRoot(document.getElementById('root')!).render(<Panel/>);

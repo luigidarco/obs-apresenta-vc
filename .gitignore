@@ -1,0 +1,14 @@
+/node_modules
+dist-local/
+private/
+previews/
+backups/
+.env*
+*.log
+*.sqlite*
+*.db
+mysql-config.json
+launch.key
+*.zip
+*.tsbuildinfo
+.DS_Store

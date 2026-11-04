@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es2022"
+    ],
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "app/**/*.tsx",
+    "lib/**/*.ts",
+    "local-ui/**/*.tsx",
+    "vite.local.config.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist-local",
+    "private"
+  ]
+}
